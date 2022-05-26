@@ -5,6 +5,17 @@ secondary-color: color: rgba(255, 255, 255, 0,5)
 accent-color: color: #2196F3 */
 .logo{
     color: black;
+    front-family:Raleway, sans-serif;
+    font-style: 700;
+
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+
 }
 .logo-span,
 .nav-link:hover,
@@ -26,3 +37,4 @@ color: #212121;
 .subtext{
     color: #757575;
 }
+
