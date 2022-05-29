@@ -4,6 +4,7 @@ secondary-color: color: #ffffff
 secondary-color: color: rgba(255, 255, 255, 0,5)
 accent-color: color: #2196F3 */
 .logo{
+    text-decoration: none;
     color: black;
 font-family: 'Raleway';
 font-style: normal;
@@ -29,7 +30,7 @@ color: #212121;
     background-color: #757575;
 }
 .hero-titel{
-    color: #ffffff
+    color: #ffffff;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
@@ -86,7 +87,8 @@ line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
 }
-.subtext{
+.subtext{ 
+    color: #757575;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -96,7 +98,6 @@ line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
 }
-.text-address{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -105,7 +106,7 @@ line-height: 24px;
 /* or 171% */
 letter-spacing: 0.03em;
 }
-.addsress-footer{
+.addsress-text{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -114,5 +115,9 @@ line-height: 24px;
 /* or 171% */
 
 letter-spacing: 0.03em;
+}
+.nav-list{
+    margin-left: 0;
+    padding-left: 0;
 }
 
