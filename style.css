@@ -107,10 +107,11 @@ line-height: 24px;
 letter-spacing: 0.03em;
 }
 .addsress-text
-.link-address:hover,
-.link-address:focus
+.link-address
+.link-address
 {
-    font-family: 'Roboto';
+    color: #757575;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -121,4 +122,10 @@ letter-spacing: 0.03em;
 .nav-list{
     margin-left: 0;
     padding-left: 0;
+}
+.link-address:hover
+.link-address:focus
+{
+    color: #2196F3;
+
 }
